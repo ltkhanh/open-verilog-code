@@ -13,7 +13,9 @@
  * @param[in] iKey, assuming active LOW
  * @param[in] iClock
  * @return oBeep
- * @attention
+ * @implements oBuzz   ``````|______________|```
+ * @implements iKey    _____|`|_________________
+ * @implements iClock  _|`|_|`|_|`|_|`|_|`|_|`|_
  */
 module Buzzer
 (
